@@ -1,11 +1,14 @@
 {
   "name": "@tanshio/ore-js-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "oreore ulitity functions",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tanshio/oreore-js-utils.git"
   },
+  "files": [
+    "src"
+  ],
   "author": "tansio",
   "license": "MIT",
   "bugs": {
