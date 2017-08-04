@@ -6,7 +6,7 @@ import isTouch from './isTouch.js'
  */
 const fixedHeight = ($elems) => {
   const vh = window.innerHeight
-  [...document.querySelectorAll($elems)].forEach(($elem) => {
+  Array.prototype.forEach.call(document.querySelectorAll($elems),($elem) => {
     $elem.style.height = `${vh}px`
   })
 }
