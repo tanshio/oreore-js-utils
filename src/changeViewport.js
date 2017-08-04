@@ -1,4 +1,8 @@
-export default (size = 990)=> {
+/**
+ * [description]
+ * @param  {Number} [size=1024] [description]
+ */
+export default (size = 1024)=> {
   const ua = navigator.userAgent;
   const _viewport = document.createElement('meta');
   const $head = document.querySelector('head');
