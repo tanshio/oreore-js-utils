@@ -1,7 +1,7 @@
 {
   "name": "@tanshio/ore-js-utils",
   "version": "1.0.3",
-  "description": "oreore ulitity functions",
+  "description": "oreore ulitity libs",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tanshio/oreore-js-utils.git"
@@ -14,5 +14,24 @@
   "bugs": {
     "url": "https://github.com/tanshio/oreore-js-utils/issues"
   },
-  "homepage": "https://tanshio.net"
+  "homepage": "https://tanshio.net",
+  "scripts": {
+    "dev": "webpack --watch",
+    "production": "NODE_ENV=production webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "7.0.0-beta.32",
+    "@babel/polyfill": "7.0.0-beta.32",
+    "@babel/preset-env": "7.0.0-beta.32",
+    "@babel/preset-es2015": "7.0.0-beta.32",
+    "babel-loader": "8.0.0-beta.0",
+    "babel-minify-webpack-plugin": "^0.2.0",
+    "glob": "^7.1.2",
+    "ts-loader": "^3.1.1",
+    "tslint": "^5.8.0",
+    "tslint-config-standard": "^7.0.0",
+    "typescript": "^2.6.1",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {}
 }
