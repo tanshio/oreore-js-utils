@@ -37,7 +37,7 @@ class Countdown {
   }
 
   public getWeek (): number {
-    return this.getDay() % 7
+    return Math.floor(this.getDay() % 7)
   }
 
   public getOriginMonth (): number {
