@@ -6,8 +6,6 @@
 .session.vim
 .session.vim.lock
 
-/dist/
-
 *.DS_Store
 .AppleDouble
 .LSOverride
