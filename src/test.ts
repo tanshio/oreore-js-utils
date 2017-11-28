@@ -1,5 +1,5 @@
 'use strict'
-import FitHeight from './fixedHeight'
+import FitHeight from './FixedHeight'
 import changeViewport from './changeViewport'
 import instagram from './jquery-instagram'
 // import countDwon from './Countdown'
