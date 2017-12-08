@@ -5,19 +5,14 @@ import instagram from './jquery-instagram'
 // import countDwon from './Countdown'
 // import debounce from 'lodash-es/debounce'
 import throttle from './throttle'
+import InView from './InView'
 
-import * as polyfill from 'dynamic-polyfill'
+window.addEventListener('DOMContentLoaded', function() {
+  let inView = new InView('.js-height, .header')
+  inView.init()
 
-polyfill({
-  fills: ['IntersectionObserver'],
-  options: ['gated'],
-  minify: true,
-  rum: false,
-  afterFill() {
-
-    console.log('loads')
-    // callback
-  }
+  // let inView2 = new InView('hello2')
+  // inView2.init()
 })
 
 window.addEventListener('scroll',
