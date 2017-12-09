@@ -1,6 +1,6 @@
 {
   "name": "@tanshio/ore-js-utils",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "oreore ulitity libs",
   "repository": {
     "type": "git",
@@ -9,6 +9,7 @@
   "types": "./typings/main.d.ts",
   "main": "index.js",
   "module": "index.js",
+  "jsnext:main": "index.js",
   "author": "tansio",
   "license": "MIT",
   "bugs": {
