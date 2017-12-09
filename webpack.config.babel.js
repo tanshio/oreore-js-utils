@@ -77,7 +77,7 @@ const webpackConfig = {
   },
   plugins: pluginsList,
   externals: {
-    jquery: 'window.jQuery'
+    jquery: 'jQuery'
   }
 }
 
