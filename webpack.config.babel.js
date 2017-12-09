@@ -40,7 +40,7 @@ const webpackConfig = {
   output: {
     path: path.join(__dirname, 'dist'),
     filename: '[name].js',
-    libraryTarget: "umd"
+    libraryTarget: "commonjs2"
   },
   module: {
     rules: [
