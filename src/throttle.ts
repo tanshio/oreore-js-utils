@@ -1,3 +1,3 @@
-import throttle from 'lodash-es/throttle'
+import _throttle from 'lodash-es/throttle'
 
-export default throttle
+export const throttle: any = _throttle

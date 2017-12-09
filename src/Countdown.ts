@@ -1,6 +1,6 @@
 import * as differenceInMonths from 'date-fns/difference_in_months'
 
-class Countdown {
+export class Countdown {
 
   public startDate: number
   public endDate: number
@@ -56,5 +56,3 @@ class Countdown {
     return Math.floor(this.getMonth() / 12)
   }
 }
-
-export default Countdown

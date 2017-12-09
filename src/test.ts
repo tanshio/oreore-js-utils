@@ -1,10 +1,10 @@
 'use strict'
-import FitHeight from './FixedHeight'
-import changeViewport from './changeViewport'
-import instagram from './jquery-instagram'
-// import countDwon from './Countdown'
-// import debounce from 'lodash-es/debounce'
-import throttle from './throttle'
+import { FitHeight } from './FixedHeight'
+import { changeViewport } from './changeViewport'
+import { instagram } from './jquery-instagram'
+// import { countDown } from './Countdown'
+// import { debounce } from 'lodash-es/debounce'
+import { throttle } from './throttle'
 
 import * as polyfill from 'dynamic-polyfill'
 
@@ -14,7 +14,6 @@ polyfill({
   minify: true,
   rum: false,
   afterFill() {
-
     console.log('loads')
     // callback
   }

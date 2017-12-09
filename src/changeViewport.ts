@@ -1,10 +1,10 @@
-import isMobile from './isMobile'
+import { isMobile } from './isMobile'
 
 /**
  * [description]
  * @param  {Number} [size=1024] [description]
  */
-export default (size = 1024) => {
+export const changeViewport = (size = 1024) => {
   const _viewport: HTMLElement = document.createElement('meta')
   const $head: HTMLElement | null = document.querySelector('head')
   _viewport.setAttribute('name','viewport')

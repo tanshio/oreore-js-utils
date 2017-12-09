@@ -9,14 +9,19 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "noImplicitAny": false,
-    "allowJs": true,
+    "allowJs": false,
     "noUnusedLocals": true,
     "skipLibCheck": true,
     "strictNullChecks": true,
     "target": "esnext",
+    "declaration": true,
+    "declarationDir": "../typings"
   },
   "exclude": [
     ".git",
     "node_modules"
+  ],
+  "include":[
+    "src/*.ts"
   ]
 }

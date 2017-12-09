@@ -1,3 +1,3 @@
-import debounce from 'lodash-es/debounce'
+import _debounce from 'lodash-es/debounce'
 
-export default debounce
+export const debounce: any = _debounce

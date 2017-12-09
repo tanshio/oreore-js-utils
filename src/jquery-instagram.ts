@@ -1,4 +1,4 @@
-export default () => {
+export const instagram = () => {
 
   const $list = $('.js-insta')
   let token = $list.data('token')

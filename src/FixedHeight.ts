@@ -1,4 +1,4 @@
-class FitHeight {
+export class FitHeight {
 
   private selector: string
   private elements: Array<HTMLElement>
@@ -58,5 +58,3 @@ class FitHeight {
     return minusPx
   }
 }
-
-export default FitHeight
