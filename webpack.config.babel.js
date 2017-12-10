@@ -36,7 +36,6 @@ targets.forEach(value => {
 console.log(entries)
 
 const webpackConfig = {
-  target: 'node',
   entry: entries,
   output: {
     path: path.join(__dirname, 'dist'),

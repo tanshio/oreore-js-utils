@@ -17,7 +17,8 @@
     "declaration": true,
     "declarationDir": "../typings",
     "rootDir":"./src/",
-    "outDir": "lib"
+    "outDir": "lib",
+    "allowSyntheticDefaultImports": true
   },
   "exclude": [
     ".git",
