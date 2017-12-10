@@ -2,9 +2,18 @@
 // export { changeViewport } from './changeViewport'
 // import getDayOfYear from 'date-fns/get_day_of_year'
 // import {getDayOfYear} from 'date-fns'
-import getDayOfYear = require('date-fns/get_day_of_year')
+// import getDayOfYear = require('date-fns/get_day_of_year')
+//
+// getDayOfYear('aaa')
+// import {Countdown} from './Countdown'
+//
+// const aaa = new Countdown(Date.now(),'1234')
+//
+// aaa.getDay()
 
-getDayOfYear('aaa')
+import _throttle from 'lodash/throttle'
+
+console.log(_throttle)
 
 // format()
 // 'use strict'

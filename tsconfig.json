@@ -2,18 +2,20 @@
   "compilerOptions": {
     "jsx": "react",
     "lib": [
+      "es5",
+      "es2015",
       "es2017",
       "dom"
     ],
     "strict": true,
-    "module": "commonjs",
+    "module": "umd",
     "moduleResolution": "node",
     "noImplicitAny": false,
     "allowJs": false,
     "noUnusedLocals": true,
     "skipLibCheck": true,
     "strictNullChecks": true,
-    "target": "esnext",
+    "target": "es2015",
     "declaration": true,
     "declarationDir": "../typings",
     "rootDir":"./src/",
