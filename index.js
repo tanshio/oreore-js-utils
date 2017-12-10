@@ -1,7 +1,3 @@
-export * from './dist/FixedHeight'
-export * from './dist/changeViewport.js'
-// export * from './dist/jquery-instagram'
-export * from './dist/Countdown'
-export * from './dist/throttle'
-export * from './dist/Countdown'
-
+export { FitHeight } from './lib/FixedHeight'
+export { isTab } from './lib/isTab'
+export { isTouch } from './lib/isTouch'

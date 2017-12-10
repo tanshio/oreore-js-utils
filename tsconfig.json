@@ -15,7 +15,9 @@
     "strictNullChecks": true,
     "target": "esnext",
     "declaration": true,
-    "declarationDir": "../typings"
+    "declarationDir": "../typings",
+    "rootDir":"./src/",
+    "outDir": "lib"
   },
   "exclude": [
     ".git",
