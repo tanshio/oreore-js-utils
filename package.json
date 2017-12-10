@@ -1,12 +1,12 @@
 {
   "name": "@tanshio/ore-js-utils",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "oreore ulitity libs",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tanshio/oreore-js-utils.git"
   },
-  "types": "./typings/main.d.ts",
+  "types": "./typings/test.d.ts",
   "main": "index.js",
   "jsnext:main": "index.js",
   "author": "tansio",
@@ -28,6 +28,7 @@
     "@types/date-fns": "^2.6.0",
     "@types/jquery": "^3.2.16",
     "@types/lodash-es": "^4.17.0",
+    "@types/node": "^8.0.57",
     "babel-loader": "8.0.0-beta.0",
     "babel-minify-webpack-plugin": "^0.2.0",
     "date-fns": "^1.29.0",

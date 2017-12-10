@@ -36,11 +36,12 @@ targets.forEach(value => {
 console.log(entries)
 
 const webpackConfig = {
+  target: 'node',
   entry: entries,
   output: {
     path: path.join(__dirname, 'dist'),
     filename: '[name].js',
-    libraryTarget: "umd",
+    libraryTarget: "umd"
   },
   module: {
     rules: [
@@ -55,7 +56,8 @@ const webpackConfig = {
                   "@babel/preset-env",
                   {
                     "useBuiltIns": "usage",
-                    "debug": true
+                    "debug": true,
+                    "modules": false
                   }
                 ]
               ]
@@ -70,7 +72,7 @@ const webpackConfig = {
     ]
   },
   resolve: {
-    extensions: ['', '.ts', '.tsx', '.js', '.jsx', '.json'],
+    extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'],
     alias: {
       'vue$': 'vue/dist/vue.esm.js' // 'vue/dist/vue.common.js' webpack 1 用
     }
