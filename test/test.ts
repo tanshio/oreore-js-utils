@@ -1,5 +1,6 @@
-// export { FitHeight } from './FixedHeight'
-// export { changeViewport } from './changeViewport'
+export { FitHeight } from '../src/FixedHeight'
+export { changeViewport } from '../src/changeViewport'
+export { Countdown } from '../src/Countdown'
 // import getDayOfYear from 'date-fns/get_day_of_year'
 // import {getDayOfYear} from 'date-fns'
 // import getDayOfYear = require('date-fns/get_day_of_year')
