@@ -1,6 +1,6 @@
 {
   "version": "2.0.1",
-  "private": true,
+  "name": "@tanshio/ore-js-utils",
   "description": "oreore ulitity libs",
   "repository": {
     "type": "git",
