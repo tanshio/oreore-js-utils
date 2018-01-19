@@ -3,6 +3,7 @@ import glob from 'glob';
 import typescript from 'rollup-plugin-typescript2';
 import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
+import babel from 'rollup-plugin-babel';
 
 const pkg = require('./package.json');
 
@@ -32,6 +33,9 @@ targets.forEach(value => {
       typescript({
         useTsconfigDeclarationDir: true,
       }),
+      babel({
+        exclude: 'node_modules/**'
+      })
     ],
   }
   entries.push(obj)

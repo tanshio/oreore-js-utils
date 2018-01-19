@@ -2,4 +2,4 @@
  * Check Touch Device
  * @returns {boolean}
  */
-export declare const isTouch: () => boolean;
+export default function (): boolean;

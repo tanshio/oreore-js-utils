@@ -2,4 +2,4 @@
  * Check Mobile Device
  * @returns {boolean}
  */
-export declare const isMobile: () => boolean;
+export declare function isMobile(): boolean;

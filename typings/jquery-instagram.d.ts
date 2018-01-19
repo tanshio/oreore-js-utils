@@ -1,1 +1,1 @@
-export declare const instagram: () => void;
+export declare function instagram(): void;

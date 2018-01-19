@@ -2,4 +2,4 @@
  * Check Tablet Device
  * @returns {boolean}
  */
-export declare const isTab: () => boolean;
+export declare function isTab(): boolean;
